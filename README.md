@@ -59,7 +59,7 @@ ZKInfer requires **Python 3.8+** and **Poetry** for dependency management.
 pip install poetry
 
 # Clone the repository
-git clone https://github.com/your-repo/zkinfer.git
+git clone https://github.com/samarabdelhameed/ZKInfer.git
 cd zkinfer
 
 # Install dependencies
@@ -87,6 +87,9 @@ USE_NOIR=1 python main.py
 
 ## Architecture Workflow
 Below is the high-level overview of the ZKInfer process:
+![ZKInfer Workflow1](https://github.com/samarabdelhameed/pics/blob/main/zk.png)
+
+![ZKInfer Workflow2](https://github.com/samarabdelhameed/pics/blob/main/zk2.png)
 
 1️⃣ **User provides ML input data**  
 2️⃣ **ML model processes the input (ONNX)**  
